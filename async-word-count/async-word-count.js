@@ -28,6 +28,7 @@ var getTotalWordCount = function(filePathOne, filePathTwo, callback) {
           callback(null, dataTwo + dataOne);
         }
       });
+    }
   });
 };
 
